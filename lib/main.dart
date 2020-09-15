@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app1/pokedetail.dart';
 import 'package:flutter_app1/pokemon.dart';
-import 'package:http/http.dart' as http;
+import 'package:http/http.dart' as http; // hello
 import 'dart:convert';
 
 void main() => runApp(MaterialApp(
@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("PokeBook"),
+        title: Text("PokemonBook"),
         centerTitle: true,
         backgroundColor: Colors.cyan,
       ),
